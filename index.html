@@ -239,13 +239,13 @@
                 window.EJS_biosUrl = "";
                 window.EJS_gameUrl = url;
                 window.EJS_core = core;
-                window.EJS_pathtodata = "data/";
+                window.EJS_pathtodata = "https://cdn.jsdelivr.net/gh/Invincible-Atlas/EmulatorJS-With_Cores@Single-file/data/";
                 window.EJS_startOnLoaded = true;
                 window.EJS_DEBUG_XX = enableDebug;
                 window.EJS_disableDatabases = true;
                 window.EJS_threads = enableThreads;
 
-                script.src = "data/loader.js";
+                script.src = "https://cdn.jsdelivr.net/gh/Invincible-Atlas/EmulatorJS-With_Cores@Single-file/data/loader.js";
                 document.body.appendChild(script);
             }
             box.ondragover = () => box.setAttribute("drag", true);
